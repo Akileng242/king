@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Register New Employee</title>
+</head>
+<body>
+    <h2>Register New Employee</h2>
+    <form action="index.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" name="name" required><br>
+
+        <label for="position">Position:</label>
+        <input type="text" name="position" required><br>
+
+        <label for="salary">Salary:</label>
+        <input type="number" name="salary" step="0.01" required><br>
+
+        <label for="pay_rate">Pay Rate:</label>
+        <input type="number" name="pay_rate" step="0.01" required><br>
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
